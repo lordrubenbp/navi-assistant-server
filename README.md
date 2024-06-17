@@ -23,7 +23,7 @@ Follow these steps to set up the server:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/navi_assistant_server.git
+    git clone https://gitlab.com/navi-assistant/Extension.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -94,5 +94,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 For any questions or inquiries, you can contact us through:
 
 - **Email**: ruben.baena@uca.es
-- **GitHub**: [lordrubenbp](https://github.com/lordrubenbp)
 - **Website**: [Navi Assistant](https://naviassistant.com/)
