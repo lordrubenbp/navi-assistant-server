@@ -10,6 +10,7 @@ Navi Assistant Server is the backend service for the Navi Assistant project, pro
 - [Usage](#usage)
 - [Features](#features)
 - [API Endpoints](#api-endpoints)
+- [Import Dialogflow ES Agent](#import-dialogflow-es-agent)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -96,6 +97,19 @@ Here are some of the main API endpoints provided by the server:
 
 - **Dialogflow Endpoints**:
     - `POST /api/dialogflow/webhook`: Handle Dialogflow webhook requests.
+ 
+## Import Dialogflow ES Agent
+
+To import the `NAVI_ASSISTANT_AGENT.zip` file containing a Dialogflow ES conversational agent, follow these steps:
+
+1. Log in to your Dialogflow ES account at [Dialogflow Console](https://dialogflow.cloud.google.com/).
+2. Create a new agent or select an existing agent.
+3. Go to the agent's settings by clicking the gear icon next to the agent's name.
+4. In the "Export and Import" tab, select "Import".
+5. Click "Select file" and upload the `NAVI_ASSISTANT_AGENT.zip` file.
+6. Confirm that you want to import the file. This will overwrite the current agent with the contents of the uploaded file.
+
+Once the import is complete, the agent will be ready for configuration and use within Dialogflow ES.
 
 ## Contributing
 
